@@ -74,7 +74,7 @@ This installs the `ttt` binary to your `$GOPATH/bin` (or `$HOME/go/bin` by defau
 
 ### Download Binary
 
-Pre-built binaries for Linux, macOS, and Windows are available on the [Releases](https://github.com/eugenioenko/ttt/releases) page. Download the one for your platform, make it executable, and put it in your `PATH`.
+Pre-built binaries for Linux, macOS, FreeBSD, and Windows are available on the [Releases](https://github.com/eugenioenko/ttt/releases) page. Download the one for your platform, make it executable, and put it in your `PATH`.
 
 ### From Source
 
