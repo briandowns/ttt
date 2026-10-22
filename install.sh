@@ -21,6 +21,10 @@ case "$OS" in
     BINARY="ttt-darwin-${ARCH}"
     INSTALL_DIR="${INSTALL_DIR:-/usr/local/bin}"
     ;;
+  freebsd)
+    BINARY="ttt-freebsd-${ARCH}"
+    INSTALL_DIR="${INSTALL_DIR:-/usr/local/bin}"
+    ;;
   *)
     echo "Unsupported OS: $OS"; exit 1
     ;;

@@ -20,12 +20,12 @@ brew trust eugenioenko/ttt
 brew install ttt
 ```
 
-### Quick Install Linux
+### Quick Install Linux, macOS, & FreeBSD
 ```sh
 curl -sSfL https://raw.githubusercontent.com/eugenioenko/ttt/main/install.sh | sh
 ```
 
-The script downloads the latest release binary for your OS/architecture and installs it to `~/.local/bin` on Linux (`/usr/local/bin` on macOS). To install elsewhere:
+The script downloads the latest release binary for your OS/architecture and installs it to `~/.local/bin` on Linux (`/usr/local/bin` on macOS & FreeBSD). To install elsewhere:
 
 ```sh
 curl -sSfL https://raw.githubusercontent.com/eugenioenko/ttt/main/install.sh | INSTALL_DIR="$HOME/bin" sh
